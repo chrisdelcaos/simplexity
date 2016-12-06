@@ -1,4 +1,4 @@
-Jugando un poco en C aplicando algunos cambios en para mi pebble..
+Jugando un poco en C, aplicando algunos cambios para mi pebble..
 
 # simplicity
 
