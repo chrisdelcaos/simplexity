@@ -71,7 +71,7 @@ static void prv_main_window_load(Window *window) {
     GRect(bounds.origin.x, 68, bounds.size.w, 100),
     GRect(8, 68, 136, 100)));
   text_layer_set_text_alignment(s_date_layer, PBL_IF_ROUND_ELSE(
-    GTextAlignmentCenter, GTextAlignmentLeft));
+    GTextAlignmentCenter, GTextAlignmentCenter));
   text_layer_set_text_color(s_date_layer, GColorWhite);
   text_layer_set_background_color(s_date_layer, GColorClear);
   text_layer_set_font(s_date_layer, fonts_get_system_font(FONT_KEY_ROBOTO_CONDENSED_21));
@@ -82,7 +82,7 @@ static void prv_main_window_load(Window *window) {
     GRect(bounds.origin.x, 92, bounds.size.w, 76),
     GRect(7, 92, 137, 76)));
   text_layer_set_text_alignment(s_time_layer, PBL_IF_ROUND_ELSE(
-    GTextAlignmentCenter, GTextAlignmentLeft));
+    GTextAlignmentCenter, GTextAlignmentCenter));
   text_layer_set_text_color(s_time_layer, GColorWhite);
   text_layer_set_background_color(s_time_layer, GColorClear);
   text_layer_set_font(s_time_layer, fonts_get_system_font(FONT_KEY_ROBOTO_BOLD_SUBSET_49));

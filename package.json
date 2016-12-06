@@ -1,41 +1,37 @@
 {
-  "version": "3.2.0",
-  "author": "Pebble Technology",
-  "private": true,
-  "dependencies": {},
-  "keywords": [
-    "pebble-app"
-  ],
-  "pebble": {
-    "sdkVersion": "3",
-    "resources": {
-      "media": [
-        {
-          "menuIcon": true,
-          "type": "bitmap",
-          "name": "IMAGE_MENU_ICON",
-          "file": "images/menu_icon_simplicity.png"
-        }
-      ]
-    },
-    "projectType": "native",
-    "uuid": "030ee5fc-518b-49e5-b9b2-0700ee92af89",
-    "messageKeys": {},
-    "enableMultiJS": false,
-    "displayName": "Simplicity",
-    "watchapp": {
-      "onlyShownOnCommunication": false,
-      "hiddenApp": false,
-      "watchface": true
-    },
-    "targetPlatforms": [
-      "aplite",
-      "basalt",
-      "chalk",
-      "diorite",
-      "emery"
+    "author": "Pebble Technology",
+    "dependencies": {},
+    "keywords": [
+        "pebble-app"
     ],
-    "capabilities": []
-  },
-  "name": "Simplicity"
+    "name": "simplicity",
+    "pebble": {
+        "displayName": "Simplicity",
+        "enableMultiJS": false,
+        "messageKeys": {},
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/menu_icon_simplicity.png",
+                    "menuIcon": true,
+                    "name": "IMAGE_MENU_ICON",
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite",
+            "emery"
+        ],
+        "uuid": "030ee5fc-518b-49e5-b9b2-0700ee92af89",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "3.2.0"
 }
