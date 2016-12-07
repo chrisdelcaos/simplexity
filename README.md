@@ -1,2 +1,7 @@
-# Simplistic
-An upgraded version of the default watchface
+# simplicity
+
+![screenshot](screenshots/simplicity-screenshot.png)
+
+Example watchface showing the date and time.
+
+Requires SDK4.
