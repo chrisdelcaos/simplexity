@@ -1,7 +1,3 @@
-# simplicity
+WatchFace Basado en el Orinal Simplicity
 
-![screenshot](screenshots/simplicity-screenshot.png)
-
-Example watchface showing the date and time.
-
-Requires SDK4.
+Requiere SDK4
