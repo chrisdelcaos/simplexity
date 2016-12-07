@@ -1,3 +1,3 @@
-WatchFace Basado en el Orinal Simplicity
+WatchFace Basado en el Original Simplicity
 
 Requiere SDK4
