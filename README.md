@@ -1,3 +1,3 @@
-WatchFace Basado en el Original Simplicity
+WatchFace Basado en el Original Simplicity For Pebble Watch
 
 Requiere SDK4
